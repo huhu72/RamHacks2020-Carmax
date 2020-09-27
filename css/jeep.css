@@ -1,0 +1,134 @@
+
+body,
+main {
+  margin: 0;
+}
+#header {
+  height: 100%;
+  width: 100%;
+}
+.search-bar {
+  height: 45px;
+  width: 100%;
+  border: none;
+  margin-top: -0.2%;
+}
+.search-bar-container{
+    position: relative;
+    display: inline;
+}
+
+#search {
+  border: 1px solid #dedfe0;
+  border-radius: 8px;
+  background-color: #f0f1f2;
+  font-size: 16px;
+  font-family: Lato, Corbel, ‘Lucida Grande’, ‘Lucida Sans Unicode’,
+    ‘DejaVu Sans’, ‘Bitstream Vera Sans’, ‘Liberation Sans’, Verdana,
+    ‘Verdana Ref’, sans-serif;
+  height: 48px;
+  color: #053361;
+  margin: 0 0 0 7.5%;
+  outline: none;
+  padding: 0 0 0 16px;
+  width: 84.5%;
+  -webkit-appearance: none;
+}
+input:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    opacity: 1; /* Firefox */
+  }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    font-size: 14.5px;
+    opacity: 1; /* Firefox */
+  }
+#search-button {
+  border: none;
+  margin-left: 0%;
+  height: 100%;
+  vertical-align: -6px;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { 
+display: none; 
+}
+#body-img{
+    height: 100%;
+    width: 100%;
+    margin-top: 1.65%;
+}
+
+#search{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    margin-top: -.3%;
+}
+#left-side{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    margin: 0!important;
+    float: left;
+    border-top: 1px solid #ebebeb;
+}
+
+main{
+   width: 100%;
+   
+}
+#right-side{
+    display: inline-block;
+    margin: 0 !important;
+    width: 80%;
+    height: 1000%;
+   
+    
+}
+#top-bar{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    color: #287cd2;
+    margin-left: 2%;
+}
+#car-containers{
+    display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-template-rows: auto;
+  column-gap: 1%;
+  margin-left: 2%;
+}
+.cars{
+    height: 60%;
+    width: 90%;
+}
+#car1{
+    order: 1;
+}
+#car2{
+    order: 2;
+}
+#car3{
+    order: 3;
+}
+#car4{
+    order: 4;
+}
+#second-tier, #third-tier{
+    margin-top: -15%;
+}
+#unknown-containers{
+display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-template-rows: auto;
+  column-gap: 1%;
+  margin-left: 2%;
+}
